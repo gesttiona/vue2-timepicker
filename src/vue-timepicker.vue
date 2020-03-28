@@ -696,6 +696,8 @@ export default {
       if (this.apmType) {
         timeValue[this.apmType] = ''
       }
+      this.hour = "";
+      this.minute = "";
       this.timeValue = timeValue
     },
 
